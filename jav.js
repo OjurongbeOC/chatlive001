@@ -50,7 +50,7 @@ $(document).ready(function () {
 }
 function yellow(){
    show.style.display="none";
-    click.setAttribute('class','fa fa-bars-staggered fa-2x');
+    click.setAttribute('class','fa fa-bars fa-2x');
     change.setAttribute('onclick','red()');
     click.style.animationName="listoo";
     document.documentElement.style.position="";
